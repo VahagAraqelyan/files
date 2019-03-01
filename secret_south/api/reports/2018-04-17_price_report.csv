@@ -1,0 +1,6 @@
+Date,IP,From_Country,From_Zip_code,To_Country,To_Zip_code,Total_Pieces,Price_Show
+2018-04-17 11:49:46,::1,United States (USA),10014,Armenia,,1,YES
+2018-04-17 12:51:11,::1,United States (USA),10014 - NEW YORK,United States (USA),10017 - NEW YORK,2,YES
+2018-04-17 12:51:25,::1,United States (USA),10014 - NEW YORK,Armenia,,2,YES
+2018-04-17 14:07:28,::1,China,,United States (USA),,1,YES
+2018-04-17 14:08:23,::1,Armenia,,United States (USA),,1,YES

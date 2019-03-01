@@ -1,0 +1,550 @@
+#change-captcha{
+    cursor:pointer;
+}
+
+.admin_content{
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.show_error {
+    width: 60%;
+    margin: auto;
+    color: red;
+}
+
+.show_error * {
+    color: red;
+}
+
+
+.select-doc-file {
+    padding: 9px 12px;
+    border: 1px solid #aaacab;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,245,247,1) 4%, rgba(216,216,216,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(4%, rgba(237,245,247,1)), color-stop(100%, rgba(216,216,216,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,245,247,1) 4%, rgba(216,216,216,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,245,247,1) 4%, rgba(216,216,216,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,245,247,1) 4%, rgba(216,216,216,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(237,245,247,1) 4%, rgba(216,216,216,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d8d8d8', GradientType=0 );
+}
+
+.progressbar{
+    width: 40%;
+    height:20px;
+}
+.procent{
+    width: 0;
+    height: 20px;
+    background: #05c394;
+}
+
+.my_select_class{
+    width: 100%;
+    padding: 4px;
+    border-radius: 9px;
+    background-color: #fcfcfc;
+}
+
+.proc_span{
+    display: table;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #fff;
+}
+
+div#lesson_video_upload {
+    padding: 5px;
+}
+
+.my-form-group{
+    display: flex;
+}
+
+.well_content {
+    width: 95%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.modal-backdrop{
+    background-color: #0000004a!important;
+}
+
+.modal-dialog-well {
+    max-width: 900px;
+}
+
+.main_well_upd .col-1 {
+    max-width: 15%!important;
+    flex: auto;
+    padding: 5px;
+}
+
+.modal-dialog-well {
+    max-width: 1100px;
+}
+
+.main_well_upd .col-1 input {
+    font-size: 13px;
+    padding: 4px;
+}
+
+span.update_comment {
+    color: blue;
+    cursor: pointer;
+}
+
+#admin_login {
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+}
+
+body.dp-frs{
+    overflow: hidden;
+    height: 100vh;
+}
+
+body.dp-frs>div, body.dp-frs #wrapper{
+    height: 100%;
+}
+
+body.dp-frs #wrapper nav{
+    height: 80px;
+}
+
+body.dp-frs #sidebar-nav, body.dp-frs div.main{
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+}
+
+body.dp-frs #sidebar-nav{
+    margin-top: 80px;
+    padding-top: 15px;
+}
+
+body.dp-frs #sidebar-nav{
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+}
+
+body.dp-frs #wrapper nav .brand, body.dp-frs #wrapper nav .container-fluid{
+    height: 100%;
+}
+
+.admin_main_content{
+    width: 80%;
+    margin:  0 auto;
+}
+
+.navbar-right .dropdown-menu {
+    left: -25%;
+    right: auto;
+    min-width: 150px!important;
+}
+
+.dz-error-message,.drop_upload.dz-started .dz-message {
+    display: none!important;
+}
+
+/*
+.dz-message.needsclick:after {
+    content: "Upload Image";
+    color: blue;
+    position: absolute;
+    right: 46%;
+    bottom: 17%;
+}
+
+.dz-message.needsclick {
+    width: 100%;
+    height: 40%;
+    border: 1px dotted blue;
+}*/
+
+
+#lesson_image {
+    width: 472px;
+    padding: 15px;
+    border-style: dashed;
+    border-color: #60add9;
+    border-width: 1px;
+    background-color: #fdfbfb;
+    color: #377ea9;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#wrapper #sidebar-nav, #wrapper .main{
+    overflow-x: hidden;
+}
+
+span.plus, .delete_answer {
+    cursor: pointer;
+    font-size: 27px;
+    color: #03bc8e;
+}
+
+.append_answer_main .form-group {
+    margin-bottom: 0;
+}
+
+.save_quiz{
+    visibility: hidden;
+}
+
+.check_img{
+    cursor: pointer;
+}
+
+.modal-body.img_zoom {
+    padding: 0;
+}
+
+.modal-body.img_zoom img {
+    width: 100%;
+}
+
+table.table.table-bordered.table-hover.designed-table img {
+    width: 99px;
+    height: 50px;
+}
+
+
+table.table.table-bordered.table-hover.designed-table {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.my-form-group{
+    display: flex;
+}
+
+.buttons button {
+    margin-left: 10px;
+}
+
+.buttons {
+    padding: 20px 0;
+}
+
+/* New CSS */
+
+.navbar-form.navbar-left .btn-primary,.admin_main_content .btn-primary {
+    width: auto !important;
+    background-color: #05c394;
+    border: 1px solid #05c394;
+    outline: none;
+}
+.admin_main_content .btn-primary.active,
+.admin_main_content .btn-primary:active,
+.admin_main_content .btn-primary:hover,
+.admin_main_content .open>.btn-primary.dropdown-toggle{
+    background-color: #05c394;
+    border: 1px solid #05c394;
+    outline:none;
+
+}
+.btn-primary{
+    background-image: linear-gradient(#00ae82, #05c394) !important;
+    outline: none !important;
+    border: none !important;
+}
+
+
+.btn-default{
+    background-image: linear-gradient(#00ae82, #05c394);
+    border: none;
+    outline: none;
+    color:#fff;
+}
+
+.login-area .login_btn{
+    background-image: linear-gradient(#03936e, #05c394) !important;
+    border: none;
+}
+
+.btn-default:hover, .btn-default:focus {
+
+    background-image: linear-gradient(#03936e, #05c394);
+    border: none;
+    outline: none;
+    color:#fff;
+
+}
+.btn-default.active.focus, .btn-default.active:focus,
+.btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.btn-primary.dropdown-toggle.focus, .open>.btn-primary.dropdown-toggle:focus,
+.open>.btn-default.dropdown-toggle:hover
+ {
+    background-image: linear-gradient(#00ae82, #05c394);
+    border: none;
+    outline: none;
+    color:#fff;
+
+}
+
+
+.btn-primary:hover, .btn-primary:focus {
+
+    background-image: linear-gradient(#03936e, #05c394) !important;
+    border:none !important;
+    outline: none !important;
+
+
+}
+
+
+
+.btn-primary.active.focus, .btn-primary.active:focus,
+.btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.btn-primary.dropdown-toggle.focus, .open>.btn-primary.dropdown-toggle:focus,
+.open>.btn-primary.dropdown-toggle:hover{
+    color: #fff;
+    background-color: #05c394;
+    border-color: #05c394;
+    outline: none;
+
+}
+.value-info input{
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: left;
+    padding: 0 8px;
+    margin: 3px 0;
+    text-align: right;
+
+}
+.value-info label {
+    float: right;
+    margin: 3px 0;
+    letter-spacing: 0.4px;
+}
+
+.value-info .btn{
+    padding: 2px 22px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.well_content .table>caption+thead>tr:first-child>td,
+.well_content .table>caption+thead>tr:first-child>th,
+.well_content .table>colgroup+thead>tr:first-child>td,
+.well_content .table>colgroup+thead>tr:first-child>th,
+.well_content .table>thead:first-child>tr:first-child>td,
+.well_content .table>thead:first-child>tr:first-child>th{
+    background-image: linear-gradient(#00ae82, #05c394);
+    color: #fff;
+    font-size: 18px;
+
+}
+.well_content button{
+    font-weight: bold;
+}
+.table-bordered, .table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+    border: 1px solid #fff;
+
+}
+#driver_list {
+    cursor:pointer;
+}
+#driver_list table tr{
+    background-color: #d9d9d9;
+}
+.admin_main_content thead tr{
+    background-image: linear-gradient(#00ae82, #05c394) !important;
+    color: #fff !important;
+}
+#driver_list  tr:nth-child(even),.admin_main_content tbody:nth-child(even)
+{
+    background: #dddddd;
+}
+.admin_main_content table{
+    background-color:#c8c8c8;
+    cursor: pointer;
+}
+#driver_list   tr:nth-child(odd){
+    background: #c8c8c8;
+}
+.admin_main_content .table-hover>tbody>tr:hover,
+#driver_list tr:hover
+{
+
+    background-color: #98a09e;
+
+}
+.main h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.admin_main_content .btn_style{
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.admin_main_content .form-control {
+    background-color: #fcfcfc;
+    text-align: right;
+    border-radius: 5px;
+    cursor: default;
+
+}
+.sidebar .nav > li > a:focus, .sidebar .nav > li > a.active{
+    border-left-color: #05c394;
+}
+
+
+#lesson_video_upload input{
+    display: none;
+}
+.form-group{
+    position: relative;
+}
+.lesson_video{
+    position: absolute;
+    border-radius: 5px;
+    background: #05c394;
+    padding: 2px 3px;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    right: 0;
+    top: 20px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.drop_upload_pic{
+    padding: 0;
+    margin-top: 40px;
+
+}
+.plus_jpg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px dashed #05c394;
+}
+.plus_jpg .fa{
+    color: #05c394;
+}
+#drop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #05c394 !important;
+}
+
+
+#driver_list input[type=checkbox], .admin_main_content input[type=checkbox]{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+}
+
+#driver_list td, .admin_main_content td{
+    position: relative;
+}
+#driver_list .checkmark, .admin_main_content .checkmark{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 18px;
+    width: 18px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 3px 7px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 3px 7px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+#driver_list .checkmark:hover, .admin_main_content .checkmark:hover{
+    background-color: #e5e4e4;
+}
+.well_content input:checked~.checkmark {
+    /* background-color: #fff; */
+}
+
+.well_content input:checked~.checkmark:after, .admin_main_content input:checked~.checkmark:after {
+    display: block !important;
+}
+
+.well_content input:checked:checked~.checkmark,
+.admin_main_content  input:checked:checked~.checkmark
+{
+    background-color: #fff;
+    display: block !important;
+}
+.checkmark:after{
+    content: "";
+    position: absolute;
+    display: none;
+    top: 5px;
+    right: 7px;
+    width: 5px;
+    height: 10px;
+    border: solid #05c394;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
+
+#question_file{
+    display: none;
+}
+.answer_multi{
+    margin-top: 40px;
+}
+.admin_main_content input[type=radio]{
+    margin-top: 20px;
+}
+/* End New CSS */
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-color: #cc3636 transparent #cc3636 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+

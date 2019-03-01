@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbbec961-ba0f-411a-bd6f-4d2b88231fe4" name="Default" comment="change pickup in use address (drop off location)" />
+    <list id="2a210679-c67a-4de6-902d-9374cd411e37" name="NO" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/Tours.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/Partners.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="79" column="32" selection-end-line="118" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="69" column="59" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/FoodDrink.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/FoodDrink_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$action == 'edit'</find>
+      <find>update_pickup_info</find>
+      <find>console</find>
+      <find>cons</find>
+      <find>initMap</find>
+      <find>create_label</find>
+      <find>full_page_loader</find>
+      <find>user_file</find>
+      <find>length</find>
+      <find>75inch / 190cm</find>
+      <find>Large Snowboard</find>
+      <find>content_main_container</find>
+      <find>1.2</find>
+      <find>ax_save_order</find>
+      <find>each</find>
+      <find>ax_save_order_item_list</find>
+      <find>edit_all_item_list</find>
+      <find>form</find>
+      <find>ax_sa</find>
+      <find>ax_upload_order_form_file</find>
+      <find>popover</find>
+      <find>international_fee_limit</find>
+      <find>formDa</find>
+      <find>salt</find>
+      <find>get_login_info</find>
+      <find>last_login</find>
+      <find>get_tour_type</find>
+      <find>index.</find>
+      <find>&lt;html lang=&quot;en&quot;&gt;</find>
+      <find>get_tour</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\wamp64\www\lts</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/libraries/Google_api.php" />
+        <option value="$PROJECT_DIR$/assets/js/chosen.jquery.js" />
+        <option value="$PROJECT_DIR$/application/views/frontend/home/home.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Public_pages.php" />
+        <option value="$PROJECT_DIR$/application/views/public_pages/drop_off_location.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/price_page/order_processing.php" />
+        <option value="$PROJECT_DIR$/assets/css/components.css" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/application/models/Order_model.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/orders/sender_pickup_info.php" />
+        <option value="$PROJECT_DIR$/application/views/public_pages/bike_sky.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/site_main_template.php" />
+        <option value="$PROJECT_DIR$/application/views/public_pages/public_page_template.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Assets.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/head.php" />
+        <option value="$PROJECT_DIR$/application/views/public_pages/public_page_head.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/orders/international/item_list.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/Order.php" />
+        <option value="$PROJECT_DIR$/application/views/backend/admin/order/custom_document.php" />
+        <option value="$PROJECT_DIR$/assets/js/backend_order.js" />
+        <option value="$PROJECT_DIR$/assets/js/order.js" />
+        <option value="$PROJECT_DIR$/application/views/frontend/orders/dropoff.php" />
+        <option value="$PROJECT_DIR$/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/application/controllers/Order.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Home.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/models/Admin_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Ferry.php" />
+        <option value="$PROJECT_DIR$/application/models/Ferry_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/Admin.php" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/../index.html" />
+        <option value="$PROJECT_DIR$/../.htaccess" />
+        <option value="$PROJECT_DIR$/application/models/Tours_model.php" />
+        <option value="$PROJECT_DIR$/application/models/Partners_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/Partners.php" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/models/FoodDrink_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/FoodDrink.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/Tours.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbbec961-ba0f-411a-bd6f-4d2b88231fe4" name="Default" comment="" />
+      <changelist id="2a210679-c67a-4de6-902d-9374cd411e37" name="NO" comment="" />
+      <created>1523002377416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523002377416</updated>
+      <workItem from="1523002383851" duration="1378000" />
+      <workItem from="1523023913481" duration="23000" />
+      <workItem from="1523395253239" duration="998000" />
+      <workItem from="1523396717880" duration="1027000" />
+      <workItem from="1523401034715" duration="787000" />
+      <workItem from="1523437600713" duration="841000" />
+      <workItem from="1523449405516" duration="962000" />
+      <workItem from="1523550454019" duration="1293000" />
+      <workItem from="1523585491487" duration="44000" />
+      <workItem from="1523613615037" duration="145000" />
+      <workItem from="1523719697607" duration="3735000" />
+      <workItem from="1523742236708" duration="396000" />
+      <workItem from="1523742738958" duration="2388000" />
+      <workItem from="1523797054772" duration="6157000" />
+      <workItem from="1523813112910" duration="662000" />
+      <workItem from="1523865891270" duration="6417000" />
+      <workItem from="1523958229378" duration="7754000" />
+      <workItem from="1523975954538" duration="18585000" />
+      <workItem from="1524040437562" duration="11894000" />
+      <workItem from="1524130310428" duration="5748000" />
+      <workItem from="1524220768519" duration="673000" />
+      <workItem from="1524236395903" duration="123000" />
+      <workItem from="1524236978476" duration="119000" />
+      <workItem from="1524237557914" duration="1227000" />
+      <workItem from="1524241996579" duration="692000" />
+      <workItem from="1524252850674" duration="608000" />
+      <workItem from="1525108757163" duration="2007000" />
+      <workItem from="1525770487758" duration="4696000" />
+      <workItem from="1525792046383" duration="609000" />
+      <workItem from="1525822567982" duration="11000" />
+      <workItem from="1525824779528" duration="71000" />
+      <workItem from="1525855224596" duration="203000" />
+      <workItem from="1525882994477" duration="93000" />
+      <workItem from="1525986828489" duration="628000" />
+      <workItem from="1548848650420" duration="9000" />
+      <workItem from="1548924753246" duration="6029000" />
+      <workItem from="1549002941042" duration="67000" />
+      <workItem from="1549280448266" duration="2107000" />
+      <workItem from="1549440215148" duration="2931000" />
+      <workItem from="1549451830547" duration="76000" />
+      <workItem from="1549526249133" duration="4284000" />
+      <workItem from="1549541204116" duration="4028000" />
+      <workItem from="1549568739506" duration="3700000" />
+      <workItem from="1549625444452" duration="3117000" />
+      <workItem from="1549960984436" duration="4007000" />
+      <workItem from="1549976207922" duration="91000" />
+      <workItem from="1549981755709" duration="1421000" />
+      <workItem from="1550488032145" duration="21000" />
+      <workItem from="1550489822784" duration="353000" />
+    </task>
+    <task id="LOCAL-00001" summary="Small change">
+      <created>1523395626626</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523395626626</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Small change">
+      <created>1523396858245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523396858245</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Small change">
+      <created>1523397144992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523397144992</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Small change">
+      <created>1523401184661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1523401184661</updated>
+    </task>
+    <task id="LOCAL-00005" summary="js select fix">
+      <created>1523449542528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523449542528</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Truest logo">
+      <created>1523550519593</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523550519593</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Choosen select">
+      <created>1523585520542</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523585520542</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Choosen select">
+      <created>1523613669934</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1523613669934</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Choosen select">
+      <created>1523720303321</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1523720303321</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Choosen select">
+      <created>1523721197168</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1523721197168</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Choosen select">
+      <created>1523722312360</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1523722312360</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Choosen select">
+      <created>1523722994330</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1523722994330</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Choosen select">
+      <created>1523744652089</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1523744652089</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Choosen select">
+      <created>1523745363168</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1523745363168</updated>
+    </task>
+    <task id="LOCAL-00015" summary="drop off">
+      <created>1523797638194</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1523797638194</updated>
+    </task>
+    <task id="LOCAL-00016" summary="drop off">
+      <created>1523798380359</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1523798380359</updated>
+    </task>
+    <task id="LOCAL-00017" summary="drop off">
+      <created>1523808443818</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1523808443818</updated>
+    </task>
+    <task id="LOCAL-00018" summary="drop off">
+      <created>1523808752868</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1523808752868</updated>
+    </task>
+    <task id="LOCAL-00019" summary="drop off">
+      <created>1523809056108</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1523809056108</updated>
+    </task>
+    <task id="LOCAL-00020" summary="drop off">
+      <created>1523809559131</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1523809559131</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Exit fullscreen google map">
+      <created>1523809727804</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1523809727804</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Exit fullscreen google map">
+      <created>1523810198268</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1523810198268</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Exit fullscreen google map">
+      <created>1523812202596</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1523812202596</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Exit fullscreen google map">
+      <created>1523812325990</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1523812325990</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Exit fullscreen google map">
+      <created>1523867073627</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1523867073627</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Sender origin address change popover text">
+      <created>1523867461170</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1523867461170</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Sender origin address change popover text">
+      <created>1523868304903</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1523868304903</updated>
+    </task>
+    <task id="LOCAL-00028" summary="change pickup in use address (drop off location)">
+      <created>1523980283330</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1523980283330</updated>
+    </task>
+    <task id="LOCAL-00029" summary="change pickup in use address (drop off location)">
+      <created>1523983123009</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1523983123032</updated>
+    </task>
+    <task id="LOCAL-00030" summary="change pickup in use address (drop off location)">
+      <created>1523990142201</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1523990142201</updated>
+    </task>
+    <task id="LOCAL-00031" summary="change pickup in use address (drop off location)">
+      <created>1523990199352</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1523990199352</updated>
+    </task>
+    <task id="LOCAL-00032" summary="change pickup in use address (drop off location)">
+      <created>1523990628141</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1523990628141</updated>
+    </task>
+    <task id="LOCAL-00033" summary="change pickup in use address (drop off location)">
+      <created>1524053072915</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1524053072915</updated>
+    </task>
+    <task id="LOCAL-00034" summary="change pickup in use address (drop off location)">
+      <created>1524054370237</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1524054370237</updated>
+    </task>
+    <task id="LOCAL-00035" summary="change pickup in use address (drop off location)">
+      <created>1524055375314</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1524055375314</updated>
+    </task>
+    <task id="LOCAL-00036" summary="change pickup in use address (drop off location)">
+      <created>1524062995149</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1524062995149</updated>
+    </task>
+    <task id="LOCAL-00037" summary="change pickup in use address (drop off location)">
+      <created>1524130744628</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1524130744628</updated>
+    </task>
+    <task id="LOCAL-00038" summary="change pickup in use address (drop off location)">
+      <created>1524133693639</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1524133693639</updated>
+    </task>
+    <task id="LOCAL-00039" summary="change pickup in use address (drop off location)">
+      <created>1524236485008</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1524236485008</updated>
+    </task>
+    <task id="LOCAL-00040" summary="change pickup in use address (drop off location)">
+      <created>1524238986039</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1524238986039</updated>
+    </task>
+    <task id="LOCAL-00041" summary="change pickup in use address (drop off location)">
+      <created>1524242021209</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1524242021209</updated>
+    </task>
+    <task id="LOCAL-00042" summary="change pickup in use address (drop off location)">
+      <created>1524242720508</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1524242720509</updated>
+    </task>
+    <task id="LOCAL-00043" summary="change pickup in use address (drop off location)">
+      <created>1525108945520</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1525108945520</updated>
+    </task>
+    <task id="LOCAL-00044" summary="commit test in live">
+      <created>1525782652535</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1525782652535</updated>
+    </task>
+    <task id="LOCAL-00045" summary="change pickup in use address (drop off location)">
+      <created>1525784293271</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1525784293271</updated>
+    </task>
+    <task id="LOCAL-00046" summary="change pickup in use address (drop off location)">
+      <created>1525784403502</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1525784403502</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="115235000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
+      <window_info id="Favorites" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3270525" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32839838" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Structure" order="4" weight="0.24962178" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Small change" />
+    <MESSAGE value="js select fix" />
+    <MESSAGE value="Truest logo" />
+    <MESSAGE value="Choosen select" />
+    <MESSAGE value="drop off" />
+    <MESSAGE value="Exit fullscreen google map" />
+    <MESSAGE value="Sender origin address change popover text" />
+    <MESSAGE value="commit test in live" />
+    <MESSAGE value="change pickup in use address (drop off location)" />
+    <option name="LAST_COMMIT_MESSAGE" value="change pickup in use address (drop off location)" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/js/validate.js" />
+    <entry file="file://$PROJECT_DIR$/application/models/Order_model.php" />
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/orders/sender_pickup_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="448" selection-start-line="448" selection-end-line="448" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/ext/fedex/AddressValidationService_v4.wsdl" />
+    <entry file="file://$USER_HOME$/Desktop/application/controllers/Order.php" />
+    <entry file="file://$PROJECT_DIR$/assets/images/labeling/sky_snowboard.jpg" />
+    <entry file="file://$PROJECT_DIR$/application/config/public_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="181" column="20" selection-start-line="181" selection-start-column="12" selection-end-line="181" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/application/views/public_pages/public_page_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/site_main_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Assets.php" />
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="112" column="71" selection-start-line="112" selection-start-column="71" selection-end-line="112" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/public_pages/public_page_head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main_lib.js" />
+    <entry file="file://$PROJECT_DIR$/assets/js/backend_order.js" />
+    <entry file="file://$PROJECT_DIR$/application/views/backend/admin/order/custom_document.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="79" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Order.php" />
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/orders/international/item_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/public_pages/drop_off_location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4590">
+          <caret line="270" column="57" selection-start-line="270" selection-start-column="11" selection-end-line="270" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Order.php" />
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/orders/dropoff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="211" column="19" selection-start-line="211" selection-start-column="19" selection-end-line="211" selection-end-column="19" />
+          <folding>
+            <marker date="1525723464152" expanded="true" signature="7779:7879" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/public_pages/bike_sky.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="454" selection-start-line="454" selection-end-line="454" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/order.js" />
+    <entry file="file://$PROJECT_DIR$/../front/server.php" />
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Home_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Admin_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Ferry_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Ferry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" selection-start-line="90" selection-end-line="112" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../asd/dist/front/admin-login-admin-login-module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="50" column="135" selection-start-line="50" selection-start-column="128" selection-end-line="50" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../asd/dist/front/runtime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="213" column="8" lean-forward="true" selection-start-line="213" selection-start-column="8" selection-end-line="213" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="321" column="20" selection-start-line="321" selection-start-column="20" selection-end-line="321" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/REST_Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.890/index.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.866/index.html" />
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="71" column="53" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Tours_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="38" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Partners_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="32" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Partners.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="32" selection-end-line="118" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="59" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/FoodDrink_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/FoodDrink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Tours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,726 @@
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .8;
+    /*  cursor: pointer;*/
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Roboto-Regular';
+    font-size: 24px;
+    margin-bottom: 19px;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content_width {
+    width: 92%;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("../fonts/Roboto-Regular_0.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url("../fonts/Roboto-Medium_0.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+nav {
+    position: relative;
+    margin: 0 auto;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    background: #44be8d;
+    box-sizing: border-box;
+    padding: 0.75rem 0;
+    height: 70px;
+}
+
+nav .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .flex_item_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .flex_item_2 {
+    display: flex;
+    align-items: center;
+}
+
+nav .left {
+    color: white;
+    margin-right: 0.75rem;
+    float: left;
+}
+
+nav .right {
+    margin-left: 0.75rem;
+}
+
+nav .notification-icon {
+    position: relative;
+    margin-right: 1em;
+    border-radius: 5px;
+}
+
+nav .notification-icon i {
+    color: white;
+}
+
+nav .notification-icon:nth-of-type(1) i {
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav .notification-icon:nth-of-type(2) i {
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav .notification-icon .num-count {
+    position: absolute;
+    user-select: none;
+    cursor: default;
+    font-size: 0.6rem;
+    background: #f16c69;
+    width: 1.2rem;
+    height: 1.2rem;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: -0.33rem;
+    right: -.66rem;
+    box-sizing: border-box;
+    animation-name: scaleCount;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+@keyframes scaleCount {
+    0% {
+        transform: scale(0);
+    }
+    40% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(0.5);
+    }
+    80% {
+        transform: scale(1.25);
+    }
+}
+
+nav .search_wrapper .input-group {
+    width: 200px;
+}
+
+nav .search_wrapper .input-group input {
+    background: rgba(255, 255, 255, 0.2);
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-right: unset;
+    border: unset;
+}
+
+nav .search_wrapper .input-group input::-webkit-input-placeholder {
+    color: white;
+}
+
+nav .search_wrapper .input-group span {
+    border: unset;
+    border-top-right-radius: 17px !important;
+    border-left: unset;
+    border-bottom-right-radius: 17px !important;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+nav .search_wrapper .input-group span i {
+    color: white;
+}
+
+nav .profile {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .profile:after {
+    content: "";
+    top: -0.75rem;
+    bottom: -0.75rem;
+    left: 0;
+    right: -0.75rem;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+nav .profile .user-photo {
+    display: inline-block;
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    margin-left: 0.75rem;
+    cursor: default;
+    background-size: cover;
+    border-radius: 2px;
+}
+
+nav .profile .user-photo img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: right;
+}
+
+nav .profile .first-name {
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    background: white;
+    border-radius: 0 0 .5em .5em;
+    position: relative;
+    /*height: calc(100vh - 146px);*/
+}
+
+main .map_info {
+    margin-bottom: 39px;
+    width: 94%;
+    cursor: pointer;
+}
+
+main .map_info img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+main .main_buttons {
+    margin: 20px 0 29px 0;
+}
+
+main .main_buttons button {
+    border-radius: 12px;
+    border: unset;
+    margin-right: 20px;
+    padding: 4px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Roboto-Medium';
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: black;
+    background-color: white;
+}
+
+.company_filter.active, .state_active {
+    box-shadow: unset;
+    border: unset;
+    outline: unset;
+    color: white;
+    background-color: #44be8d;
+}
+
+main .next_page {
+    display: block;
+    width: 100%;
+}
+
+main .next_page a {
+    display: block;
+    text-align: right;
+    color: #44be8d;
+    font-weight: 600;
+    margin-bottom: 25px;
+    position: relative;
+    width: 96%;
+}
+
+main .next_page a:after {
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #44be8d;
+    display: block;
+    content: '';
+    right: -54px;
+    top: 50%;
+    text-decoration: none;
+}
+
+main .next_page a:before {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #44be8d;
+    display: block;
+    content: '';
+    right: -64px;
+    top: 8px;
+    text-decoration: none;
+}
+
+main .next_page a:hover {
+    text-decoration: none;
+}
+
+main .next_page a:hover:after {
+    right: -70px;
+    transition: 1500ms;
+}
+
+main .next_page a:hover:before {
+    right: -80px;
+    transition: 1500ms;
+}
+
+aside {
+    display: none;
+    width: 18%;
+    box-shadow: 1px 0px 7px #dadada;
+    z-index: 9999;
+    font-weight: 600;
+    background: white !important;
+    /*height: calc(100vh - 146px);*/
+}
+
+aside ul {
+    list-style-type: none;
+    padding: unset;
+}
+
+aside ul li {
+    display: block;
+    line-height: 45px;
+    border-left: 0 solid #34495E;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #e6e6e6;
+    transition: all .2s ease-in-out;
+    white-space: nowrap;
+}
+
+aside ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+aside ul li:hover {
+    background: #44be8d;
+    border-left-color: #ffffff;
+    border-left-width: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+aside ul li:hover a {
+    color: white;
+}
+
+section.main_dashboard {
+    display: flex;
+}
+
+section.map_page {
+    display: flex;
+}
+
+section.map_page main.map {
+    margin-top: 50px;
+    width: 100%;
+}
+
+section.map_page main.map .content {
+    box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
+    border-radius: unset;
+}
+
+section.map_page main.map .flex_container {
+    display: flex;
+}
+
+section.map_page main.map .flex_container ul.nav {
+    list-style-type: none;
+    padding: unset;
+    max-height: 600px;
+    overflow: scroll;
+}
+
+section.map_page main.map .flex_container ul.nav li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.map_page main.map .flex_container ul.nav li.active {
+    background-color: #44be8d;
+    color: white;
+}
+
+section.map_page main.map .flex_container ul.nav li.active p {
+    color: white;
+}
+
+section.map_page main.map .flex_container ul.nav li p {
+    font-family: 'Roboto-Regular';
+    font-size: 18px;
+    color: black;
+    padding-bottom: 16px;
+    margin: unset;
+}
+
+section.map_page main.map .flex_container ul.nav li a p {
+    font-family: 'Roboto-Regular';
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+
+section.map_page main.map .flex_container .left_side {
+    width: 20%;
+}
+
+section.map_page main.map .flex_container .left_side h2 {
+    padding: 29px;
+}
+
+section.map_page main.map .flex_container .left_side a.locate {
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.map_page main.map .flex_container .left_side a.locate div i {
+    padding-right: 20px;
+}
+
+section.map_page main.map .flex_container .right_side {
+    width: 80%;
+    position: relative;
+}
+
+section.map_page main.map .flex_container .right_side #map {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 600px;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+p.designatet_place,.end_road {
+    cursor: pointer;
+}
+
+.modal-backdrop{
+    background-color:#00000054 ;
+}
+
+section.login {
+    height: 100vh;
+    width: 100%;
+}
+
+section.login .full-login, section.login .login-second-part {
+    height: 100%;
+    width: 100%;
+}
+
+section.login .login-part {
+
+    background: #44be8d;
+    padding: 63px 216px 182px 216px;
+}
+
+section.login .login-part .logo-brand {
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+section.login .login-part .logo-brand img {
+    width: unset;
+}
+
+section.login .login-part .main-login-content h3 {
+    font-size: 36px;
+    font-family: "OpenSans-ExtraBold";
+    padding-bottom: 32px;
+    margin: unset;
+}
+
+section.login .login-part .main-login-content p {
+    font-size: 20px;
+    font-family: "OpenSans-Light";
+    padding-bottom: 76px;
+    margin: unset;
+}
+
+section.login .login-part .main-login-content form input {
+    border-radius: unset;
+    border: unset;
+    padding: 20px 28px;
+}
+
+section.login .login-part .main-login-content form input::-webkit-input-placeholder {
+    color: #707070;
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+}
+
+section.login .login-part .main-login-content form .uppend-icon {
+    border: unset;
+}
+
+section.login .login-part .main-login-content form .uppend-icon span {
+    border: unset;
+    background-color: white;
+}
+
+section.login .login-part .main-login-content form .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-family: "OpenSans-Regular";
+    user-select: none;
+}
+
+section.login .login-part .main-login-content form .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+section.login .login-part .main-login-content form .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+section.login .login-part .main-login-content form .container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+section.login .login-part .main-login-content form .container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid white;
+}
+
+section.login .login-part .main-login-content form .container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+section.login .login-part .main-login-content form .btn-login {
+    width: 100%;
+    background: black;
+    border: unset;
+    padding: 20px;
+    font-family: "OpenSans-Bold";
+    font-size: 23px;
+    border-radius: unset;
+}
+
+section.login .login-part .main-login-content form .btn-login:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 1500ms;
+    opacity: unset;
+}
+
+section.login .login-part .main-login-content form .btn-login:focus {
+    border: unset;
+    box-shadow: unset;
+    outline: unset;
+}
+
+section.login .login-part .main-login-content form .forgot {
+    color: white;
+    font-size: 16px;
+    font-family: "OpenSans-Regular";
+    text-decoration: none;
+    padding-top: 23px;
+    display: block;
+}
+
+section.login .login-part .main-login-content .login-or h5 {
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    font-family: "OpenSans-Light";
+    margin-bottom: 35px;
+}
+
+section.login .login-part .main-login-content .login-or h5:after {
+    content: "";
+    display: block;
+    left: -80px;
+    top: 12px;
+    width: 59px;
+    position: absolute;
+    height: 1px;
+    background-color: black;
+}
+
+section.login .login-part .main-login-content .login-or h5:before {
+    content: "";
+    display: block;
+    right: -80px;
+    top: 12px;
+    width: 59px;
+    position: absolute;
+    height: 1px;
+    background-color: black;
+}
+
+section.login .login-part .main-login-content .login-or .social-media ul li {
+    width: 52px;
+    height: 52px;
+    padding: 10px;
+    border-radius: 50%;
+    background: white;
+}
+
+section.login .login-part .main-login-content .login-or .social-media ul li a {
+    display: block;
+}
+
+section.login .login-part .main-login-content .login-or .social-media ul li a img, section.login .login-part .main-login-content .login-or .social-media ul li a i {
+    width: unset;
+    color: black;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+section.login .login-second-part img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+body.login_page {
+    height: 100vh;
+}
+
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    height: 76px;
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    font-family: "Roboto-Regular";
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.activity_password_content {
+    width: 80%;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.show_error {
+    width: 60%;
+    margin: auto;
+    color: red;
+}
+
+.show_road{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    section.login .login-part {
+        padding:15px;
+    }
+    nav .search_wrapper .input-group {
+        width: auto;
+    }
+    main .next_page a:before,main .next_page a:after{
+        display:none
+    }
+    section.map_page main.map .flex_container{
+        display: inherit;
+    }
+    section.map_page main.map .flex_container .left_side {
+        width: 100%;
+    }
+    section.map_page main.map .flex_container .right_side {
+        width: 100%;
+        height: 450px;
+    }
+}

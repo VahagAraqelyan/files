@@ -1,0 +1,1 @@
+ALTER TABLE `admins` CHANGE `update_date` `update_date` DATETIME NULL; 

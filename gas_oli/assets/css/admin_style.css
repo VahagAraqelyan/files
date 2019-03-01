@@ -1,0 +1,326 @@
+#change-captcha{
+    cursor:pointer;
+}
+
+.admin_content{
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.show_error {
+    width: 60%;
+    margin: auto;
+    color: red;
+}
+
+.show_error * {
+    color: red;
+}
+
+.select-doc-file {
+    padding: 9px 12px;
+    border: 1px solid #aaacab;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,245,247,1) 4%, rgba(216,216,216,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(4%, rgba(237,245,247,1)), color-stop(100%, rgba(216,216,216,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,245,247,1) 4%, rgba(216,216,216,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,245,247,1) 4%, rgba(216,216,216,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,245,247,1) 4%, rgba(216,216,216,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(237,245,247,1) 4%, rgba(216,216,216,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d8d8d8', GradientType=0 );
+}
+
+.progressbar{
+    width: 40%;
+    height:20px;
+}
+.procent{
+    width: 0;
+    height: 20px;
+    background: #007bff;
+}
+.proc_span{
+    display: table;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #fff;
+}
+
+.my-form-group{
+    display: flex;
+}
+
+.well_content {
+    width: 95%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.modal-backdrop{
+    background-color: #0000004a!important;
+}
+
+.modal-dialog-well {
+    max-width: 900px;
+}
+
+.main_well_upd .col-1 {
+    max-width: 15%!important;
+    flex: auto;
+    padding: 5px;
+}
+
+.modal-dialog-well {
+    max-width: 1250px;
+}
+
+.main_well_upd .col-1 input {
+    font-size: 13px;
+    padding: 4px;
+}
+
+span.update_comment {
+    color: #0d94ee;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+/*new css*/
+.well_content .btn-primary {
+    border-radius: 30px;
+    color: #fff;
+    padding: 5px 30px !important;
+    background-image: linear-gradient(#0070ce, #13a6fe) !important;
+    outline: none !important;
+    border: none !important;
+}
+.btn-primary,.well_content .btn-default, #add_steersman_form .btn-primary,
+.select-doc-file,
+#add_well_butt, #add_company_butt,.save_edit_crew,.main_well_upd .btn-primary ,#change_comment {
+    border-radius: 30px;
+    color: #fff;
+    padding: 5px 30px !important;
+    background-image: linear-gradient(#0070ce, #13a6fe) !important;
+    outline: none !important;
+    border: none !important;
+
+}
+
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus,
+.btn-default.focus,
+.btn-default:focus,
+.btn-default:not(:disabled):not(.disabled).active:focus,
+.btn-default:not(:disabled):not(.disabled):active:focus,
+.show>.btn-default.dropdown-toggle:focus
+
+{
+
+    box-shadow: none !important;
+}
+
+
+.btn-primary, .well_content .btn-primary:hover, .well_content .btn-default:hover,
+#add_steersman_form .btn-primary:hover,
+.select-doc-file:hover,.save_edit_crew:hover,
+#add_well_butt:hover, #add_company_butt:hover, .save_edit_crew:hover, .save_manual_update:hover,#change_comment:hover
+{
+    background-image: linear-gradient(#0069bc, #0d9df3) !important;
+}
+#driver_list_wrapper select,#well_list_length select,#company_list_length select{
+    color: #707070;
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    background-color: #d5d9dc;
+}
+
+.well_content .form-control, .form-control{
+    background-color: #d5d9dc;
+    outline: none;
+    padding: 3px 10px; !important;
+    height: calc(2.25rem + 0px) !important;
+    border-radius: 15px;
+    color: #707070;
+
+}
+.form-control{
+
+    outline: none;
+    padding: 10px !important;
+    border-radius: 15px;
+    color: #707070;
+    background-color: #fff;
+    box-shadow: 0px 1px 12px 0 rgba(0, 0, 0, 0.1);
+}
+#search_div .form-control:focus{
+    border-color: #a3a3a3 !important;
+}
+
+#driver_list thead tr,#well_list thead tr, #company_list thead tr{
+    background-image: linear-gradient(#0070ce, #13a6fe) !important;
+    color: #fff;
+    font-size: 17px !important;
+    font-weight: bold;
+}
+
+
+#well_list thead th,#well_list thead td, #well_list{
+
+    line-height: 15px;
+
+}
+#well_list tbody tr{
+    font-size: 13px;
+}
+
+table.dataTable.no-footer, .table-bordered td, .table-bordered th {
+    border: none !important;
+}
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 5px;
+}
+
+#driver_list, #driver_list>tbody>tr>td, #driver_list>tbody>tr>th, #driver_list>tfoot>tr>td,
+#driver_list>tfoot>tr>th, #driver_list>thead>tr>td, #driver_list>thead>tr>th,
+
+#well_list, #well_list>tbody>tr>td, #well_list>tbody>tr>th, #well_list>tfoot>tr>td,
+#well_list>tfoot>tr>th, #well_list>thead>tr>td, #well_list>thead>tr>th
+
+#company_list, #company_list>tbody>tr>td, #company_list>tbody>tr>th, #company_list>tfoot>tr>td,
+#company_list>tfoot>tr>th, #company_list>thead>tr>td, #company_list>thead>tr>th
+
+
+{
+    border: 1px solid #fff !important;
+}
+
+#driver_list>tbody>tr>td, #driver_list>tbody>tr>th, #driver_list>tfoot>tr>td,
+#driver_list>tfoot>tr>th, #driver_list>thead>tr>td, #driver_list>thead>tr>th {
+    padding: 8px;
+}
+#driver_list tbody tr:nth-child(even),#well_list tbody tr:nth-child(even), #company_list tbody tr:nth-child(even)
+{
+    background: #dddddd;
+}
+table.dataTable tbody tr{
+    background: none;
+    cursor: pointer;
+}
+#driver_list, #well_list{
+    cursor: pointer;
+    border-collapse: collapse;
+}
+
+#driver_list tbody tr:nth-child(odd), #well_list tbody tr:nth-child(odd),#company_list tbody tr:nth-child(odd){
+    background: #c8c8c8;
+}
+#driver_list .table-hover>tbody>tr:hover,
+#driver_list tr:hover,#company_list tr:hover,
+#well_list .table-hover>tbody>tr:hover,
+#well_list tr:hover
+
+{
+
+    background-color: #9d9a9a !important;
+
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous,
+#well_list_next, #company_list_next, #driver_list_next{
+    background: transparent !important;
+    border: none !important;
+    color: #000 !important;
+}
+
+
+
+#well_list_previous:hover,
+#driver_list_next:hover,
+#driver_list_previous:hover,
+#company_list_previous:hover,
+#company_list_next:hover,
+#well_list_next:hover{
+    color:#5f5e5e !important;
+    border: none;
+    background: none !important;
+    background-image: none;
+    cursor: pointer;
+
+    
+}
+.dataTables_wrapper .dataTables_paginate{
+    padding-top: 2em;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active{
+    box-shadow: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+
+    color: #fff!important;
+    background-image: linear-gradient(#0070ce, #13a6fe) !important;
+    border-radius: 5px;
+    margin: 0 15px;
+    outline: none;
+    border:none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+
+    background-image: linear-gradient(#0069bc, #0d9df3) !important;
+    color: #fff!important;
+    border: none !important;
+
+}
+#well_list tbody th, #well_list table.dataTable tbody td{
+    padding: 8px;
+
+}
+#save_edit_crew_form .my-form-group, .admin_main_content .my-form-group{
+    width: 35% !important;
+}
+#save_edit_crew_form .value-info,.admin_main_content .value-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+
+}
+#save_edit_crew_form .value-info input, .admin_main_content .value-info input{
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.1);
+    outline: none;
+    border: 1px solid #ccd0d2;
+    border-radius: 15px;
+    padding: 3px 10px;
+
+}
+.main_well_upd .form-control{
+    border-radius: 12px;
+}
+input[type=checkbox]{
+    width: 30px;
+    height: 15px;
+}
+/*map*/
+.modal-body{
+    width: 100%;
+    margin: 0 auto !important;
+}
+#dhl_map{
+    width: 100%;
+    margin: 0 auto !important;
+}
+#map{
+    width: 100% !important;
+}
+.main-menu, .menu-inner{
+    height: auto;
+}
+.menu-inner{
+    height: auto;
+}

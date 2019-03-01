@@ -1,0 +1,16 @@
+.add_new{
+    margin: 16px;
+}
+
+.wallet_block{
+    margin-top: 10px;
+}
+
+.card {
+    width: 30%;
+    float: left;
+    border: 1px solid;
+    margin-left: 1%;
+    margin-top: 10px;
+    padding: 10px;
+}

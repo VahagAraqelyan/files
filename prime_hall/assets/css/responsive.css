@@ -1,0 +1,261 @@
+@media screen and (max-width: 769px){
+    .menu{
+        display: none;
+    }
+
+    .resp_menu{
+        position: relative;
+    }
+
+    .menu-toggle {
+        display: block!important;
+        position: fixed;
+        z-index: 999999;
+        right: 0;
+        width: auto;
+    }
+
+    .menu-toggle-backg{
+        background-color: #333;
+    }
+
+    .ace-responsive-menu {
+        position: fixed;
+        z-index: 999;
+        top: 0%;
+    }
+
+    .resp_menu {
+        position: fixed;
+        z-index: 999;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 931px) {
+
+    .slider_content_pos{
+        padding-top: 12%;
+    }
+
+    .menu ul{
+        width: 100%;
+    }
+
+    section.promo {
+        position: relative;
+        height: 80vh;
+    }
+
+    div#our_menu>div:first-child>div>h4 {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 930px) and (min-width: 768px) {
+
+    .promo__title{
+        margin-bottom: 30px;
+        font-size: 4.21173vh;
+    }
+
+    .promo__logo-wrapper.prime_logo img{
+        height: 76%;
+        max-width: 60%;
+    }
+
+    .promo__logo-wrapper{
+        height:21.38436vh;
+    }
+
+    section.promo {
+        position: relative;
+        height: 70vh;
+    }
+
+    .calendar_main{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .calendar .click_calendar{
+        left:6%;
+    }
+
+    div#our_menu>div:first-child>div>h4 {
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+
+    .slider_content_pos{
+        padding-top: 3%;
+    }
+
+    .calendar_main{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .promo__title{
+        margin-bottom: 30px;
+        font-size: 3.21173vh;
+    }
+
+    .promo__logo-wrapper.prime_logo img{
+        height: 76%;
+        max-width: 60%;
+    }
+
+    .promo__logo-wrapper{
+        height:21.38436vh;
+    }
+
+    .calendar h5{
+        font-size: 15px;
+    }
+
+    .calendar .click_calendar{
+        left:6%;
+    }
+
+    section.promo {
+        height: 60vh;
+    }
+
+    div#our_menu{
+        width: 100%;
+    }
+
+    .columns_center>.columns__col {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .calendar input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 649px) {
+
+    section.promo {
+        height: 50vh;
+    }
+
+    .promo__logo-wrapper.prime_logo img {
+        height: 100%;
+        max-width: 60%;
+    }
+
+    .promo__logo-wrapper {
+        height: 12.38436vh;
+    }
+
+    .language a {
+        padding: 2px 5px;
+        font-size: 13px;
+    }
+
+    .calendar .click_calendar {
+        left: 9%;
+    }
+
+    div#our_menu>div:first-child>div>h4 {
+        font-weight: 400;
+        margin: 10px auto;
+        width: 95%;
+    }
+
+    div#our_menu>div:first-child>div> * {
+        margin: 0 auto;
+        width: 95%;
+        display: block;
+    }
+
+    .calendar input{
+        width: 100%;
+    }
+
+    .language.pan_main.col-2 a svg {
+        width: 60px;
+        margin-top: -2em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    div#our_menu>div:first-child>div>h4 {
+        font-size: 14px;
+        font-weight: 400;
+        margin: 10px auto;
+        width: 95%;
+    }
+
+    div#our_menu>div:first-child>div> * {
+        margin: 0 auto;
+        width: 95%;
+        display: block;
+        padding: 0;
+    }
+
+    div#our_menu>div:first-child>div {
+        margin: 15% 0;
+    }
+
+    .promo__title {
+        margin-bottom: 14px;
+        font-size: 3.21173vh;
+    }
+
+    .promo__title {
+        margin-bottom: 10px;
+        font-size: 2vh;
+    }
+
+    .calendar h5 {
+        font-size: 14px;
+    }
+
+    section.promo {
+        height: 40vh;
+    }
+
+    .promo__logo-wrapper {
+        height: 9.38436vh;
+        margin-bottom: 1.24104vh;
+    }
+
+    .language {
+        padding: 13px 0;
+    }
+
+    .calendar {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width: 300px) {
+
+    .calendar {
+        margin-top: 0;
+    }
+
+    .language {
+        padding: 13px 0;
+        margin-top: 0;
+    }
+
+    section.promo {
+        height: 25vh;
+    }
+
+    .calendar input {
+        height: 30px;
+    }
+
+    .promo__title {
+        display: none;
+    }
+}

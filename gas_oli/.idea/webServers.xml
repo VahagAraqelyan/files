@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="def6363a-d982-4a1a-942d-2725961ca896" name="gasoil" url="http://159.203.59.51">
+        <fileTransfer host="159.203.59.51" port="22" rootFolder="/var/www/html/gasoil" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e2affebb-ee8e-4f92-836a-69024d25e510" name="miteshop" url="http://173.254.19.110">
+        <fileTransfer host="173.254.19.110" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

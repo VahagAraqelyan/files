@@ -1,0 +1,705 @@
+/*profile styles*/
+.navbar-nav ul li span{font-weight:bold;}
+.new-top-part{margin-top:-10px;}
+.r-text-box textarea{width:100%;border: 1px solid #CCCCCC; height: 120px; resize: none;}
+.order-sheet .tblbox{border:1px solid #ccc;margin-bottom:8px;background:#fff;}
+.order-sheet .top-tbl{margin:0px 0;}
+.order-sheet .tblbox h3{font-size:17px;text-align:center;background:#e4e4e4;border-bottom:1px solid #cccccc;margin:-8px -11px;line-height:35px;}
+.sub-user-popup-area{min-height:280px;}
+.order-sheet .tblbox h3 span.number{float:left;margin-left:10px;font-size:14px;}
+.order-sheet .tblbox h3 span.status{float:right;margin-right:10px;font-size:14px;}
+.function-btn{float:left;margin-left:0%;}
+.order-sheet .tblbox {border: 1px solid #ccc;margin-bottom: 8px;background: #fff;}
+.tbl-nav .search { float: left;  position: relative; width: 22%;}
+.tbl-nav .search .filter, .tbl-nav .search .input-formArea { margin: 0 1%; width: 155px;    border: 1px solid #CCCCCC;  height: 27px;}
+.tbl-nav .search .total-view {margin-top: 10px;}
+
+.footable-nav { display: inline-block;list-style: none outside none; margin: 0; padding: 0;}
+.footable-nav { float: right;}
+.admin-container .shipping-order {padding: 8px 1% 1px 1%;}
+.shipping-order .tbl-nav {margin:0px 0 20px;}
+.footable-nav {list-style: none;padding: 0;margin: 0;display: inline-block;}
+ .tblbox h3 {  background: none repeat scroll 0 0 #E4E4E4; border-bottom: 1px solid #CCCCCC; font-size: 17px;line-height: 35px; margin: -8px -11px; text-align: center;}
+ /* global title top class - START */
+.head-top { margin: 20px 0 10px 0; }
+.head-top .right { float: right; }
+.search { float: left;  position: relative; width: 22%; }
+.search .filter, .tbl-nav .search .input-formArea { margin: 0 1%; width: 155px;    border: 1px solid #CCCCCC;  height: 27px;}
+.search .filter1, .tbl-nav .search .input-formArea { margin: 0 1%; width: 500px;    border: 1px solid #CCCCCC;  height: 27px;}
+.search .total-view {margin-top: 10px;}
+.function-btn { float: left; margin-left: 0;}
+/* global title top class - END */
+.customer-list-hole-part{  border: 1px solid #CCCCCC; margin-top: 10px; }
+.customer-list-hole-part h3{  font-size: 22px;  background: none repeat scroll 0 0 #2197C7; color: #FFFFFF; padding:5px; text-align: center; margin:-1px;}
+.customer-list-hole-part .title { font-size: 22px;  background: none repeat scroll 0 0 #2197C7; color: #FFFFFF; padding:5px; text-align: center; margin:-1px; }
+.customer-list-hole-part .title .left {  font-size: 22px; float: left;  color: #FFFFFF; text-align: left;}
+.customer-list-hole-part .title .right {  font-size: 13px; float: right;  color: #FFFFFF; text-align: right;}
+.customer-list-hole-part .title .right span { font-size: 18px; color: #000000; }
+
+.customer-list-hole-part2 {  }
+.customer-list-hole-part2 .title { font-size: 22px;  background: none repeat scroll 0 0 #2197C7; color: #FFFFFF; padding:5px; text-align: center; margin:15px 0; }
+.customer-list-hole-part2 .title .left {  font-size: 22px; float: left;  color: #FFFFFF; text-align: left;}
+.customer-list-hole-part2 .title .left-small {  font-size: 13px; float: left;  color: #FFFFFF; text-align: left; margin-left: 225px;}
+.customer-list-hole-part2 .title .right {  font-size: 13px; float: right;  color: #FFFFFF; text-align: right;}
+.customer-list-hole-part2 .title .right span { font-size: 18px; color: #000000; }
+
+.customer-list-body-part{ padding: 10px;}
+.doller-text{color:#FF0000;}
+.total-text-new a{ color:#fff; padding:6px 10px;}
+.ledt-box{text-align:left;  padding:0 0px 0 0px;}
+.ledt-box3{text-align:left; padding: 0 0px 0 11px;}
+.ledt-box2{padding: 2px 0 0 30px;
+    text-align: left;
+    width: 20px;}
+	.new-table-part .footable {}
+	.left-text-menu ul li span{margin-left:25px;}
+
+.footable > tbody > tr > td a{color:#444;}
+.footable > thead > tr > th.right-border { border-right: 1px solid #ccc!important; }
+.total-text-new{float: left;margin: 0 10px 0 0;}
+.sub-user-popup-popup{    background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #999999; left: 499px; margin: 0; min-height:180px; padding: 0; position: absolute; top: 200px;width: 25%; z-index: 1;}
+.email-templ-send{float:right;}
+.backpopup_chat{  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.48); height: 100%;left: 0; min-height: 100%; position: fixed; top: 0; width: 100%; z-index: 10000;}
+.email-templ-send a{ color: #FFFFFF; padding: 6px 10px; margin:0 26px;}
+.star-red{color:#FF0000; padding:0 2px; font-size:10px;}
+.sub-user-popup-header h4{  background: none repeat scroll 0 0 #2197C7; color: #FFFFFF; margin: 0; padding: 8px; text-align: left;}
+.l-label-box{float:left;}
+.r-text-box{margin-left:90px; width:68%;}
+.r-text-box input{border:solid 1px #ccc; height:29px; width:100%;}
+.form-body-part{padding:12px 20px 3px;}
+.verification-close { background:scroll 0 0 rgba(0, 0, 0, 0);display: block; height: 30px; position: absolute; right: -1px; top: 11px;width: 30px;cursor:pointer;}
+.chose-file-btn{ border-radius:0;position:relative;}
+
+
+.left-manag-h{float:left;}
+	#calendar {
+		width:96%;
+		margin: 10px auto 30px;
+		}
+		.sub-user-popup-popup2{  background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #999999;
+    left: 371px;
+    margin: 0;
+height:620px!important;
+    padding: 0;
+    position: absolute;
+    top:15px!important;
+    width: 52%;
+    z-index: 1;
+}
+
+.new-calander{color:#000!important;padding:5px 36px !important; border-radius:0!important;float:none!important;}
+.right-manag-h{float:right;}
+.left-manag-h h2{font-size:22px;margin:0; color:#fff;}
+.price-management-header{background:#289dcc;padding:4px 10px; margin-top:10px;}
+.header-text-top h2{    font-size: 13px; margin: 0; padding: 0;}
+.l-price-left-m{float:left; width:49.5%; border: solid 1px #ccc;padding:10px;min-height: 240px;}
+.l-price-left-m .feeBox{min-height: 200px;}
+.r-price-manage-m{float:right;width:49.5%; border: solid 1px #ccc; padding:10px;min-height:340px;}
+.r-price-manage-m ul{list-style-type:none;}
+.l-price-left-m ul{list-style-type:none;}
+.information-ship-ment-text{}
+.price-management-part{margin:40px 0 0 0;}
+.information-ship-ment-text {margin:-21px 0 20px; font-size:20px;}
+.information-ship-ment-text span{background:#fff; padding:0 10px;}
+.top-manag-header ul li{display:inline-block;width:19%;}
+.l-price-managment-text ul{list-style-type:none;}
+.l-price-managment-text ul li{padding:0;}
+.update-time-text{font-weight:bold;}
+.left-manag-h{float:left;}
+.right-manag-h
+.fileinputbtn .cover-uploadimg {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border: 1px solid #D8D8D8;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1px 8px 0 0;
+    overflow: hidden;
+    padding: 6px 10px;
+    position: relative;
+    text-align: center;
+    width: 95px;
+}
+
+.select_doc {
+    font-size: 12px !important;
+}
+.uploaded-box .select_doc .ap-btn {
+    float: right;
+    margin-top: 10px;
+}
+.header-btns {
+    background-color: #034482;
+    background-image: linear-gradient(to bottom, #04498C, #033C73);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.function-btn .header-btns, .input-redbtn {
+    border: medium none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+/*---------------------------------------------------login-----------------------------------------------------------*/
+.login-group-box { padding: 0 4%; width: 100%;}
+.login-group-box .title {float: left; margin-top: 5px; text-align: left;  width: 28%;}
+.login-group-box .title label {width: 100%;}
+.login-group-box .title span {color: #D9230F; margin-left: 3%;}
+.login-group-box .form-box { float: right; position: relative; text-align: left; width: 70%;}
+.login-group-box .formicon {background-color: #ECECEC; border-bottom-left-radius: 3px; border-right: 1px solid #B3B3B3; border-top-left-radius: 3px; height: 26px;
+ left: 1px; position: absolute; top: 1px; width: 30px;}
+.login-group-box .formicon.user { background-position: -6px -469px;}
+.login_box .login-group-box .iconbox .input-form { width: 100%;}
+.login-group-box .iconbox .input-form {border: 1px solid #CCCCCC; height: 28px;padding-left: 35px;}
+.login-group-box .title { float: left;  margin-top: 5px; text-align: left; width: 28%;}
+.captchabox .sec-code { float: left;  margin-left: 2%;}
+.captchabox .form-box { width: 40%!important;}
+.captchabox .form-box input{border: 1px solid #CCCCCC; height: 28px; width:100%;}
+.form_signin .forget-pass { padding: 5px 4% 12px;}
+.new_account { float: right!important;}
+.login-parrt h3{background:#11a4d2; padding:8px; margin:0; color:#fff;}
+.login-group-box .form-box { float: right; position: relative; text-align: left;width: 70%;}
+.form_signin .login-btn {margin-right: 4%; text-align: right;}
+.login-group-box .formicon.pass { background-position: -6px -414px;}
+.login-buttom-part{padding:10px 0; border:solid 1px #E6E3E3;}
+.log-in-part .logo{float:none;text-align:center;}
+.login-parrt{width:500px; margin:10px auto;background:#F0F0F0;}
+.menu-right-text{float:right;width:220px; margin:3px 0 0 0; padding:0 10px;}
+.header-middle-part span{padding:0 5px;}
+.header-middle-part{ text-align:right;  font-size:12px; color:#fff;}
+.header-middle-part2{text-align:center; font-size: 14px; margin: 15px 0 0;}
+.function-btn2{float:right;}
+.aro-plan-img{ margin:2px 0;}
+.aro-plan-img img{width:16px;}
+.header-middle-part span{ color: #000000;font-size: 13px;}
+.l-price-managment-text{}
+.l-price-managment-text ul li.top-manag-header{width:100%;}
+
+.total-text-celender{margin: 0 10px 0 0;}
+/*---------------------customer-information-ip-verification----------------------------------*/
+.new-chose-text input{}
+.acc-controlboard .tabs {
+    margin: 0;
+}
+.message_valid{
+    background: #A6EE99;
+    color: #085919;
+    padding: 5px;
+    margin: 0px;
+    text-align: left;
+    font-weight: bold;
+}
+.messageclose{ padding-left: 0px; cursor: pointer; margin-left: 25px; float: right;}
+
+.message_sucess{
+    background: #A6EE99;
+    color: #085919;
+    padding: 5px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.message_invalid{
+    background: #F6B9B9;
+    color: #C32727;
+    padding: 5px;
+    margin: 0px;
+    text-align: left;
+}
+#select_file{
+
+    display: none;
+}
+.dis_none{
+    display: none!important;
+}
+.dis_block{
+    display: block!important;
+}
+.status_filter{
+    cursor:pointer;
+}
+.customer_order_span{
+    cursor:pointer;
+}
+.old-pick-up{
+    background-color:#f7f5f5;
+}
+
+.some-width td, .some-width th{
+    width:8% !important;
+    word-wrap:break-word;
+}
+
+.designed-panel .some-width td:nth-of-type(1), .designed-panel .some-width th:nth-of-type(1){
+    width:4% !important;
+}
+
+.order-detail-top-panel {
+    text-align: right;
+    padding-bottom: 25px;
+}
+
+.remote_area_main span{
+    margin-left: 10px;
+}
+
+p#remote_area_fee_answer {
+    margin-top: 10px;
+}
+
+#shedule_form input {
+    width:auto !important;
+    display:inline !important;
+}
+
+.drop_off_location {
+    float:right;
+}
+.small_img {
+    width: 35px;
+    height: auto;
+}
+.position-static{
+    position:static;
+}
+.visible-hidden{
+    display:none!important;
+    margin:0;
+    padding:0;
+}
+.upload_luggage_file{
+    cursor:pointer;
+    color:blue;
+}
+.tracking-number-info{
+    padding:5px 10px;
+}
+.trucking-header{
+    padding:5px 0;
+}
+.red-text{
+    color:red;
+}
+.trucking-footer{
+    padding:15px 2px;
+    margin:2px !important;
+}
+
+.trucking-footer > div{
+    padding:35px 0 0 0;
+    float:right;
+}
+
+.create-label-div{
+    float:right;
+    padding: 0 !important;
+    margin-right:7px;
+}
+
+.mega-small{
+    font-size: 9px;
+    width:100%;
+    text-align: center;
+}
+
+.submit-all-btn{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: inherit;
+}
+
+.grow-button{
+    border-color: #777171;
+    background: rgba(255,185,100,1);
+    background: -moz-linear-gradient(top,  rgb(220, 217, 214) 0%, rgb(216, 215, 213) 8%, rgb(175, 173, 171) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(220, 217, 214, 1)), color-stop(8%, rgba(216, 215, 213, 1)), color-stop(100%, rgba(216, 215, 213, 1)));
+    background: -webkit-linear-gradient(top,  rgb(220, 217, 214) 0%, rgb(216, 215, 213) 8%, rgb(175, 173, 171) 100%);
+    background: -o-linear-gradient(top,  rgb(220, 217, 214) 0%, rgb(216, 215, 213) 8%, rgb(175, 173, 171) 100%);
+    background: -ms-linear-gradient(top,  rgb(220, 217, 214) 0%, rgb(216, 215, 213) 8%, rgb(175, 173, 171) 100%);
+    background: linear-gradient(to bottom, rgb(220, 217, 214) 0%, rgb(216, 215, 213) 8%, rgb(175, 173, 171) 100%);
+}
+
+.label_shipment_x {
+    cursor: pointer;
+    position: absolute;
+    left: 57px;
+    top: 3px;
+}
+
+.order_info_div label{
+    font-size:11px;
+}
+
+.billing-form ul{
+    width:15%;
+    float:left;
+    list-style: none;
+    padding:0;
+}
+
+.billing-form{
+    padding:8px;
+}
+
+.billing-form ul li{
+    border-bottom:1px solid #ddd;
+    border-right:1px solid #ddd;
+    padding:8px;
+    text-align: center;
+    font-size: 13px;
+    height: 40px;
+}
+
+.billing-form ul li:nth-of-type(2){
+    background-color: #ddf1f8;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 8px;
+}
+
+.billing-form ul li:first-child{
+    border-top:1px solid #ddd;
+}
+
+.designed-ul-like-table{
+    width: 25% !important;
+}
+
+.designed-ul-like-table li{
+    text-align: left !important;
+}
+
+.billing-form input.form-control{
+    height: 24px;
+}
+
+#billing_info ul{
+    width:37%;
+    float:left;
+    list-style: none;
+    padding: 0 13px;
+}
+
+.last_billing_ul{
+    width:25%!important;
+}
+
+#billing_info{
+    padding:8px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+#billing_info ul li{
+    padding:11px;
+    text-align: center;
+    font-size: 13px;
+    height: 40px;
+}
+
+#billing_info ul li:nth-of-type(2){
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 8px;
+}
+
+.final_billing_header>div {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.final_billing_header {
+    padding: 5px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.final_billing_header>div span {
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+#billing_info li{
+    text-align: left !important;
+}
+
+.billing-form input.form-control{
+    height: 24px;
+}
+
+#final_billing_answer .modal-header{
+    padding: 5px;
+}
+
+.biling_hr{
+    width: 250px;
+}
+
+.biling_final_hr{
+    font-weight: bold;
+    color: #0968aa;
+    background-color:#0968aa;
+    height: 1px;
+}
+
+
+table.info_final_billing_table {
+    width: 98%;
+    margin: 7px;
+}
+
+.info_final_billing_table tr td{
+    border: none!important;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.info_final_billing_table tr td span {
+    margin-left: 9px;
+}
+
+.info_final_billing {
+    border: 1px solid #ddd;
+    width: 98%;
+    margin: 0 auto;
+}
+
+button#submit_billing_form {
+    float: right;
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.refound_butt_class {
+    background: #7F7F7F;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.refound_butt_class:hover {
+    background: #7F7F7F;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+#final_billing_table table tr:last-child td:nth-of-type(2){
+    text-align: left!important;
+}
+
+#final_billing_table table tr:last-child td:nth-of-type(2) span{
+    margin-left: 10px;
+}
+
+#single_billing_error_main{
+    width: 90%;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.history-total {
+    float: right;
+}
+
+.admin_table_row_success{
+    color: #3c763d;
+    border-color: #d6e9c6 !important;
+    animation: pulse 2s;
+}
+
+
+
+@-webkit-keyframes pulse {
+    0% {
+        background: #80b976;
+    }
+    50% {
+        background: #a0e8a6;
+    }
+    100% {
+        background:#FFFFFF;
+
+    }
+}
+@keyframes pulse {
+    0% {
+        background: #80b976;
+    }
+    50% {
+        background: #a0e8a6;
+    }
+    100% {
+        background:#FFFFFF;
+
+    }
+}
+
+.admin_name_max{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.display-inline{
+    display:inline !important;
+}
+
+.prod_name_span{
+    display:inline-block !important;
+    width:125px !important;
+}
+
+.admin_credit_div p {
+    margin:1px;
+}
+
+.admin_credit_div {
+    margin:2px 0;
+    padding:2px;
+    width:45%;
+    border:1px solid #DDDDDD;
+}
+
+.admin_credit_div table {
+    width:100%;
+}
+
+.admin_credit_div table tr td:nth-child(2){
+    text-align: right;
+}
+
+
+#address_validation_result>table>tbody>tr>td{
+    width:50%;
+}
+
+#address_validation_result .origin_address{
+    width:100%;
+}
+
+#address_validation_result .origin_address th{
+    padding: 7px 15px;
+    background-color: #cccccc;
+    margin: 0 5px;
+}
+
+#address_validation_result .origin_address th .addr_title{
+    color:#fff;
+    float:left;
+}
+
+#address_validation_result .origin_address th i{
+    float:right;
+}
+
+#address_validation_result table td{
+    padding: 5px !important;
+}
+
+#address_validation_result>table td>table {
+    border:1px solid #e2e2e2;
+    margin-top:4px;
+}
+
+#address_validation_result>table td>table td{
+    padding: 5px !important;
+}
+
+#address_validation_result>table td>table th{
+    padding: 7px !important;
+    background-color: #f9e7e7;
+    margin: 0 5px;
+}
+
+#address_validation_result .origin_address td{
+    border:0;
+}
+
+#address_validation_result .addr_validate_error td{
+    font-size: 11px;
+}
+
+.address-validation-button-div{
+    padding: 15px;
+    text-align: center;
+}
+
+.address-validation-button-div button{
+    padding: 3px !important;
+    width:95px;
+}
+
+.designed-tabs.admin_reports {
+    margin: 30px 40px;
+}
+
+table.reports_table tr td {
+    padding: 5px 30px;
+}
+
+table.reports_table tr td input, table.reports_table tr td select {
+    margin-left: 16px;
+}
+
+.admin_reports_content .shipping,.admin_reports_content .user{
+
+    width: 48%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.admin_reports_content .shipping ul,.admin_reports_content .user ul{
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+    padding: 0;
+}
+
+.admin_reports_content .shipping ul li, .admin_reports_content .user ul li {
+    list-style: none;
+}
+
+.admin_reports_content .shipping ul li span, .admin_reports_content .user ul li span {
+    margin-left: 15px;
+}
+
+.user_search {
+    border: 1px solid #96d0e4;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.admin_reports_content .last_ul{
+    height: 100px;
+}
+
+.admin_reports_content button{
+    padding: 3px 20px;
+}
+
+.reports_table_div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.reports_table_div .table {
+    margin-top: 60px;
+}
+
+
+.order_statistic_main_1{
+    margin: 30px;
+}

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <meta name="copyright" content="toKernel" />
+    <meta name="classification" content="" />
+    <meta name="language" content="en">
+    <meta name="author" content="toKernel" />
+    <meta name="designer" content="toKernel" />
+    <meta name="owner" content="toKernel" />
+    <meta name="category" content="" />
+    <meta name="publisher" content="toKernel" />
+    <meta name="generator" content="toKernel" />
+    <meta name="formatter" content="toKernel" />
+
+    <title>Luggage to Ship</title>
+
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!-- Font css-->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Library css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/plyr.css">
+    <!-- style css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/components.css">
+    <!--HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://aptakidclub.ir/application/themes/frontend/default/js/html5shiv.min.js"></script>
+    <script src="http://aptakidclub.ir/application/themes/frontend/default/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo-place">
+                        <a href="" class="logo">
+                            <img src="assets/images/logo.png" alt="Worldwide Luggage Shipping">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="header-main text-center">Worldwide Luggage Shipping</h3>
+                    <h6 class="header-second text-center">Luggage, Golf Clubs, Skis, Bikes & More</h6>
+                </div>
+                <div class="col-md-3">
+                    <ul class="header-address">
+                        <li><i class="head-phone"></i><span>1800 678 6167</span></li>
+                        <li><i class="head-mail"></i><span>cs@luggagetoship.com</span></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="navbar-style">
+            <div class="navbar-some-border">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="">Shipping Rate</a></li>
+                    <li><a href="">Storage Services</a></li>
+                    <li><a href="<?php echo base_url('luggage-and-question')?>">Faq</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right signin-signup">
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Signup</a></li>
+                  </ul>
+                </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        
+    </nav>
+
+
+    <section class="filter">
+        <div class="container">
+            <div class="filter-block">
+                <form class="addres-form" method="post" action="">
+                    <div class="country-part col-md-3">
+
+                        <div class="form-group from-block">
+                            <label for="country_from">From:</label>
+                            <select class="form-control selectpicker select-country" name="country_from" id="country_from">
+                                <option value="">United States</option>
+                                <option value="">United Kingdom</option>
+                                <option value="">France</option>
+                            </select>
+                            <input type="text" class="form-control" name="city_from" id="city_from" placeholder="Zip Code or City">
+                        </div>
+                        <div class="form-group to-block">
+                            <label for="country_to">To:</label>
+                            <select class="form-control selectpicker select-country" name="country_to" id="country_to">
+                                <option value="">United States</option>
+                                <option value="">United Kingdom</option>
+                                <option value="">France</option>
+                            </select>
+                            <input type="text" class="form-control" name="city_to" id="city_to" placeholder="Zip Code or City">
+                        </div>
+                        <div class="form-group date-block">
+                            <label for="country_to">Shipping Date: <span class="popover-style" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span></label>
+                            <input type="text" class="form-control shipping-date" name="shipping_date" id="shipping_date" placeholder="Select date">
+                        </div>
+                        
+                    </div>
+
+                    <div class="items-part col-md-9">
+                        <span class="select-item-title">Select item(s)</span>
+
+                        <ul class="nav nav-tabs select-items" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#luggage" class="text-center" aria-controls="luggage" role="tab" data-toggle="tab"><i class="icon-luggage"></i>Luggage</a>
+                                <span class="luggage-count">-2-</span>
+                            </li>
+                            <li role="presentation">
+                                <a href="#boxes" class="text-center" aria-controls="boxes" role="tab" data-toggle="tab"><i class="icon-box"></i>Boxes</a>
+                                <span class="boxes-count">-1-</span>
+                            </li>
+                            <li role="presentation">
+                                <a href="#golf" class="text-center" aria-controls="golf" role="tab" data-toggle="tab"><i class="icon-golf"></i>Golf Bag</a>
+                                <span class="golf-count">-1-</span>
+                            </li>
+                            <li role="presentation">
+                                <a href="#bike" class="text-center" aria-controls="bike" role="tab" data-toggle="tab"><i class="icon-bike"></i>Bike & SKI</a>
+                                <span class="bike-count">-0-</span>
+                            </li>
+                            <li role="presentation" class="storage-services">
+                                <a href="#storage" class="text-center" aria-controls="storage" role="tab" data-toggle="tab"><span>Storage Services </span><i class="icon-home"></i></a>
+                            </li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="luggage">
+
+                                <ul class="luggages-sizes">
+                                    <li class="luggage-7">
+                                        <div class="luggage-img">
+                                            <p>Max <br /> 25 lbs <br /> 11 kg</p>
+                                        </div>
+                                        <span class="">Small</span>
+                                        <select class="form-control selectpicker select-luggage-size" name="small_size" id="small_size">
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </li>
+                                    <li class="luggage-6">
+                                        <div class="luggage-img">
+                                            <p>Max <br /> 35 lbs <br /> 11 kg</p>
+                                        </div>
+                                        <span class="">Medium</span>
+                                        <select class="form-control selectpicker select-luggage-size" name="medium_size" id="medium_size">
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </li>
+                                    <li class="luggage-5">
+                                        <div class="luggage-img">
+                                            <p>Max <br /> 45 lbs <br /> 20 kg</p>
+                                        </div>
+                                        <span class="">Standatd</span>
+                                        <select class="form-control selectpicker select-luggage-size" name="standard_size" id="standard_size">
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </li>
+                                    <li class="luggage-4">
+                                        <div class="luggage-img">
+                                            <p>Max <br /> 50 lbs <br /> 22 kg</p>
+                                        </div>
+                                        <span class="">Large</span>
+                                        <select class="form-control selectpicker select-luggage-size" name="large_size" id="large_size">
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </li>
+                                    <li class="luggage-3">
+                                        <div class="luggage-img">
+                                            <p>Max <br /> 70 lbs <br /> 32 kg</p>
+                                        </div>
+                                        <span class="">X Large</span>
+                                        <select class="form-control selectpicker select-luggage-size" name="x_large_size" id="x_large_size">
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </li>
+                                    <li class="luggage-2">
+                                        <div class="luggage-img">
+                                            <p>Max <br /> 75 lbs <br /> 34 kg</p>
+                                        </div>
+                                        <span class="">Oversize</span>
+                                        <select class="form-control selectpicker select-luggage-size" name="oversize_size" id="oversize_size">
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </li>
+                                    <li class="luggage-1">
+                                        <div class="luggage-img">
+                                            <p>Max <br /> 85 lbs <br /> 39 kg</p>
+                                        </div>
+                                        <span class="">X Oversize</span>
+                                        <select class="form-control selectpicker select-luggage-size" name="x_oversize_size" id="x_oversize_size">
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </li>
+                                </ul>
+
+                                <div class="row form-footer">
+                                    <div class="col-md-7 filter-last-text text-left">
+                                        Choose from the selection above, the size and quantity. Different item options are available on the top. 
+                                    </div>
+
+                                    <div class="col-md-5 text-right">
+                                        <a href="" id="reset" class="reset">Reset</a>
+                                        <a href="" id="check" class="check">Check Price</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="boxes">2</div>
+                            <div role="tabpanel" class="tab-pane" id="golf">3</div>
+                            <div role="tabpanel" class="tab-pane" id="bike">4</div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="working-process">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">How Luggage To Ship Works?</h2>
+                
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="single-choose">
+                        <a href="">
+                            <div class="icon">
+                                <span><i class="icon-book-online"></i></span>
+                            </div> 
+                            <h3>Book Online or Call Us</h3>
+                            <p>Simply Select Your Destination Shipping Date. Type of Luggage and Service Type.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="single-choose">
+                        <a href="">
+                            <div class="icon">
+                                <span><i class="icon-receive-shipping"></i></span>
+                            </div> 
+                            <h3>Receive Shipping Labels</h3>
+                            <p>Shipping Labels and Documents are Delivery by Express Mail and Email.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="single-choose">
+                        <a href="">
+                            <div class="icon">
+                                <span><i class="icon-pickup-drop"></i></span>
+                            </div> 
+                            <h3>We Pickup or You Drop Off</h3>
+                            <p>We Pickup at the Time of Your Request or You Drop-off at any Location Worldwide.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="single-choose">
+                        <a href="">
+                            <div class="icon">
+                                <span><i class="icon-delivery-time"></i></span>
+                            </div> 
+                            <h3>Dlivery at Schedule Time</h3>
+                            <p>Door-to-Door Delivery; We Deliver to any Place in the USA and 220 Countries Around the World.</p>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="intro-video">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Intro Video</h2>
+
+                <div class="video-block">
+                    <video poster="assets/images/video.jpg" controls>
+                        <!-- Video files -->
+                        <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.mp4" type="video/mp4">
+                        <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.webm" type="video/webm">
+
+                        <!-- Fallback for browsers that don't support the <video> element -->
+                        <a href="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.mp4" download>Download</a>
+                    </video>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="ship-your-luggage">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">We Ship Your Luggage <br /> With Free Storage...</h2>
+ 
+                <div class="col-md-3 text-center">
+                    <div class="single-choose">
+                        <a href="">
+                            <div class="icon">
+                                <span><i class="icon-free-pickup"></i></span>
+                            </div> 
+                            <h3>Free Pickup & Drop Off</h3>
+                            <p class="italic">Any Place in the World</p>
+                        </a>
+                    </div>
+                    <div class="single-choose">
+                        <a href="">
+                            <div class="icon">
+                                <span><i class="icon-same-day"></i></span>
+                            </div> 
+                            <h3>Same Day Pickup Available</h3>
+                            <p class="italic">or Choose to Drop-off</p>
+                        </a>
+                    </div>
+                    <div class="single-choose">
+                        <a href="">
+                            <div class="icon">
+                                <span><i class="icon-worldwide"></i></span>
+                            </div> 
+                            <h3>Worldwide Drop Off Locations</h3>
+                            <p class="italic">Over 25,000 Places</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <div class="free-storage">
+                        <img src="assets/images/free-storage.png">
+                    </div>
+                    <div class="free-storage-box"></div>
+                    <div class="free-storage-text">
+                        <p>Why You Keep Your Un use Luggage - Golf Clubs or Moving Boxes  at Home. Lets us Keep For You and Ship to You When You Want it. </p>
+                        <p>We Offer 6 month Free Storage with unlimited Space. If You Need More Time Just Pay $10 a Months For Extra Storage Time For Each Luggage - Golf Club or Boxes</p>
+                        <a href="" class="storage-servce-button">Click Here for Storage Services</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <div class="single-choose">
+                        <a href="">
+                            <div class="icon">
+                                <span><i class="icon-free-shipping"></i></span>
+                            </div> 
+                            <h3>Free Shipping Label Delivery</h3>
+                            <p class="italic">With 2 Days Express Mail</p>
+                        </a>
+                    </div>
+                    <div class="single-choose">
+                        <a href="">
+                            <div class="icon">
+                                <span><i class="icon-inshurance"></i></span>
+                            </div> 
+                            <h3>$500 Free Insurance</h3>
+                            <p class="italic">Up to $20.000 Coverage</p>
+                        </a>
+                    </div>
+                    <div class="single-choose">
+                        <a href="">
+                            <div class="icon">
+                                <span><i class="icon-free-luggage"></i></span>
+                            </div> 
+                            <h3>Free Luggage Storage</h3>
+                            <p class="italic">Up to 6 Months</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="partners">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Trusted Partners</h2>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="single-choose">
+                        <img src="assets/images/partners/travel_show.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="single-choose">
+                        <img src="assets/images/partners/resident-logo.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="single-choose">
+                        <img src="assets/images/partners/dhl-logo.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                    <div class="single-choose">
+                         <img src="assets/images/partners/fed-ex-logo.jpg">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-content">
+                        <div class="col-md-5">
+                            <div class="row">
+
+                                <div class="col-md-6 luggage-to-ship">
+                                    <h4>Luggage To Ship</h4>
+                                    <ul>
+                                        <li><a href="">How it work</a></li>
+                                        <li><a href="">Why ship my luggage</a></li>
+                                        <li><a href="">Why luggage to ship</a></li>
+                                        <li><a href="">Our guarantee</a></li>
+                                        <li><a href="">International shipping</a></li>
+                                        <li><a href="">Pricing</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-6 services">
+                                    <h4>Services</h4>
+                                    <ul>
+                                        <li><a href="">Ship Luggage</a></li>
+                                        <li><a href="">Ship Golf Clubs</a></li>
+                                        <li><a href="">Ship Skis & Snowbard</a></li>
+                                        <li><a href="">Ship Bike</a></li>
+                                        <li><a href="">Ship to School</a></li>
+                                        <li><a href="">Storage Services</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-7">
+                            <div class="row">
+
+                                <div class="col-md-4 luggage-to-ship">
+                                    <h4>How to pack</h4>
+                                    <ul>
+                                        <li><a href="">My Lugage</a></li>
+                                        <li><a href="">My Golf Clubs</a></li>
+                                        <li><a href="">My Skis & Snowboard</a></li>
+                                        <li><a href="">My Bike</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-4 services">
+                                    <h4>Support</h4>
+                                    <ul>
+                                        <li><a href="<?php echo base_url('luggage-and-question')?>">FAQ</a></li>
+                                        <li><a href="">Contact Us</a></li>
+                                        <li><a href="">Tracking</a></li>
+                                        <li><a href="">Sitemap</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-4 services">
+                                    <h4>Company</h4>
+                                    <ul>
+                                        <li><a href="">About Us</a></li>
+                                        <li><a href="">Affiliates</a></li>
+                                        <li><a href="">Terms of Use</a></li>
+                                        <li><a href="">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                                <p class="clearfix"></p>
+
+                                <div class="social-info">
+                                    <span class="luggage-recovery">LTS Luggage Recovery</span>
+                                    <span class="geo-trust"><img src="assets/images/geo-trust.png"></span>
+                                    <ul class="social-icons">
+                                        <li><a href="" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href="" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="" class="youtube"><i class="fa fa-youtube"></i></a></li>
+                                        <li><a href="" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-12 copyright">
+            <div class="container">
+                <div class="col-md-6">&copy; Copyright <?php echo date('Y');?> LuggageToShip All Right Reserved.</div>
+                <div class="col-md-6">
+                    <ul class="cards">
+                        <li><img src="assets/images/visa.png"></li>
+                        <li><img src="assets/images/master-card.png"></li>
+                        <li><img src="assets/images/discover.png"></li>
+                        <li><img src="assets/images/am-express.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- JAVASCRIPT LIBS-->
+    <script src="assets/js/jquery-3.1.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/plyr.js"></script>
+    <!-- MAIN JAVASCRIPT-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

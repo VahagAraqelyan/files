@@ -1,0 +1,20 @@
+# This is a sample build configuration for all languages.
+# Check our guides at https://confluence.atlassian.com/x/VYk8Lw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: samueldebruyn/debian-git
+
+pipelines:
+  default:
+    - step:
+        script:
+          - apt-get update
+          - apt-get -qq install git-ftp
+          - git ftp push --user $S_USER --passwd $S_PASS SFTP://74.208.178.79/var/www/html/dev.luggagetoship.com/
+          
+          #          - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD SFTP://74.208.120.154/var/www/html/luggage2ship.com/b2303a4ea5fdb225a189627ab1dd8169/
+#          - git ftp push --user $M_FTP_USERNAME --passwd $M_FTP_PASSWORD ftp://jewgether.avrohost.com/public_html/
+
+          
+          
